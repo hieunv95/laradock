@@ -675,3 +675,10 @@ MANTICORE_HTTP_PORT=9308
 PGADMIN_PORT=5050
 PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org
 PGADMIN_DEFAULT_PASSWORD=admin
+
+### Mailhog ##########################################
+MH_SMTP_PORT=1030
+MH_HTTP_PORT=8030
+MH_STORAGE=mongodb
+MH_MONGO_URI=mongo:27017
+MH_MONGO_DB=mailhog
