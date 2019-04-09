@@ -677,8 +677,9 @@ PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org
 PGADMIN_DEFAULT_PASSWORD=admin
 
 ### Mailhog ##########################################
-MH_SMTP_PORT=1030
-MH_HTTP_PORT=8030
+MH_SMTP_PORT=1025
+MH_HTTP_PORT=8025
 MH_STORAGE=mongodb
 MH_MONGO_URI=mongo:27017
 MH_MONGO_DB=mailhog
+#MH_AUTH_FILE=/home/mailhog/basic-auth
