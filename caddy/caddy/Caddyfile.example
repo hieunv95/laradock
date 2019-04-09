@@ -59,6 +59,6 @@ https://larasun.tk/mailhog/ {
     transparent
   }
 
-  log /var/log/caddy/mailhog/access.log
-  errors /var/log/caddy/mailhog/error.log
+  log /var/log/caddy/mh_access.log
+  errors /var/log/caddy/mh_error.log
 }
